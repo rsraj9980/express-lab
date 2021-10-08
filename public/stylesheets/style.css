@@ -1,10 +1,12 @@
 body {
     padding: 50px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: #D4ECDD;
+    text-align: center;
 }
 
 a {
-    color: #00B7FF;
+    color: #345B63;
 }
 
 .delete-form {
@@ -18,4 +20,16 @@ a {
 
 li {
     list-style: none;
+    margin: 0.6vmin;
+}
+
+h1 {
+    color: #112031;
+}
+
+ul {
+    display: grid;
+    justify-items: left;
+    align-items: left;
+    justify-content: center;
 }
